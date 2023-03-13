@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <div class="fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg" >
+    <div class="container-fluid">
+      <img href="#" src="logo.png" alt="" width="50" height="50" >
+      <a class="navbar-brand" href="#" style="font-weight: 600;">
+        
+
+        ETHER</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#found" >Founders</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#tab">Moderators</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#faq">FAQ</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#op">My opinion</a></li>
+         
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex">
+          
+          <a href="https://discord.gg/etherproject" target="_blank" style="margin-right: 30px;">
+            <img  src="ds.png"  alt="" width="40" height="38" >
+          </a>
+          <a href="https://twitter.com/ether" target="_blank" style="margin-right: 20px;">
+            <img  src="twitter.png"  alt="" width="40" height="38" >
+          </a>
+          
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="4000">
+      <img src="qa.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Landing.com</h1>
+       
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="4000">
+      <img src="softdev.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Landing.com</h1>
+       
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="4000">
+      <img src="sysadmin.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Landing.com</h1>
+       
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> -->
+<div class="ether_video">
+  <video class="vid" autoplay muted loop>
+    <source src="videos/video3.mp4"/>
+  </video>
+</div>
+<div style="
+background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 34%, rgba(35,0,123,1) 100%);">
+<div class="container-fluid">
+  <p class="job" id="found" style="font-family: Marker Felt, fantasy;">FOUNDERS</p>
+</div>
+
+         <!-- <div class="row">
+         <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1" >Col1</div> 
+         <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1" >Col2</div> 
+         <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1" >Col4</div> 
+         <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1" >Col5</div> 
+         <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1" >Col6</div> 
+         <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1" >Col3</div> 
+         <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1" >Col7</div> 
+         <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1" >Col8</div> 
+         <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1" >Col9</div> 
+         <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1" >Col10</div> 
+         <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1" >Col11</div> 
+         <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1" >Col12</div>
+        </div>
+
+        <div class="row">
+            <div class="col col-7">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo officiis, perspiciatis eligendi sed sapiente sit. Facere qui veniam unde, neque vitae et, ex sequi tempora, dolor impedit incidunt natus voluptatibus!</div>
+            <div class="col col-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, incidunt facere explicabo necessitatibus eligendi, quisquam provident maiores ipsum laudantium inventore cumque. Ea delectus id totam officiis, officia cum dignissimos?</div>
+        </div>
+      </div>
+   -->
+
+
+ <div class="row" >
+      <div style="margin-left: 370px; width: 25%; " class="col col-12 col-sm-6 col-md-4 ">
+        <div class="card" style="border-top-left-radius: 50px; border-top-right-radius: 50px; ">
+        <img src="founders_imgs/founder1.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 50px; border-top-right-radius: 50px;">
+        <div class="card-body" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+          <h5 class="card-title"><a href="https://twitter.com/visionofviii" style="text-decoration: none;">@visionofviii</a></h5>
+          <p class="card-text">Founder & artist -><a href="https://twitter.com/ether" style="text-decoration: none; color: red;"> <strong>@ether</strong></a></p>
+        </div>
+      </div>
+      </div>
+      <div style="width: 25%;" class="col col-12 col-sm-6 col-md-4">
+        <div class="card" style="border-top-left-radius: 50px; border-top-right-radius: 50px;">
+        <img src="founders_imgs/founder2.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 50px; border-top-right-radius: 50px;">
+        <div class="card-body"style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+          <h5 class="card-title"><a href="https://twitter.com/CValley_" style="text-decoration: none;">@CValley_</a></h5>
+          <p class="card-text">Co-Founder -><a href="https://twitter.com/ether" style="text-decoration: none; color: red;"> <strong>@ether</strong></a></p>
+        </div>
+      </div>
+      </div>
+</div>
+<div class="container-fluid">
+  <p class="job" style="color: rgb(255, 255, 255); font-family: Marker Felt, fantasy;" id="tab">MODERATORS</p>
+</div>
+<div class="row">
+  <div  class="col col-12 col-sm-6 col-lg-3">
+    <div class="card">
+    <img src="mod_imgs/mod1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><a href="https://twitter.com/Sneakynftseth" style="text-decoration: none;">@SNEAKTHENICK</a> </h5>
+      <p class="card-text">Senior mod.<br><span style="opacity: 0;">a</span></p>
+    </div>
+  </div>
+  </div>
+  <div class="col col-12 col-sm-6 col-lg-3">
+    <div class="card">
+    <img src="mod_imgs/mod2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><a href="https://twitter.com/ArcanicNFT" style="text-decoration: none;">@Arcanic</a></h5>
+      <p class="card-text">Most active mod in ether i like to answer  on his tweets.</p>
+    </div>
+  </div>
+  </div>
+  <div class="col col-12 col-sm-6 col-lg-3">
+    <div class="card">
+    <img src="mod_imgs/mod3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><a href="https://twitter.com/DrewBleam" style="text-decoration: none;">@Dreawblew</a></h5>
+      <p class="card-text">Ether discord architector and my homie!<br></p>
+    </div>
+  </div>
+  </div>
+  <div class="col col-12 col-sm-6 col-lg-3">
+    <div class="card">
+    <img src="mod_imgs/mod4.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><a href="https://twitter.com/lulhanson" style="text-decoration: none;">@lulhanson</a></h5>
+      <p class="card-text" style="font-size: 18px;width: 330px;height: 66px;"> A friendly person, always responds to messages and is always ready to support you.</p>
+    </div>
+  </div>
+  </div>
+  <!-- <div class="col col-12 col-sm-6 col-lg-3">
+    <div class="card">
+    <img src="mod5.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><a href="https://twitter.com/JulieNori" style="text-decoration: none;">@JulieNori</a></h5>
+      <p class="card-text">The most beautiful mod in the world.</p>
+    </div>
+  </div>
+  </div> -->
+  <div style="margin-left: 190px;" class="col col-12 col-sm-6 col-lg-3">
+    <div class="card">
+    <img src="mod_imgs/mod6.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><a href="https://twitter.com/nandoeth" style="text-decoration: none;">@NANDO</a></h5>
+      <p class="card-text">When there was a problem, I turned to him and he helped me a lot.</p>
+    </div>
+  </div>
+  </div>
+  <div class="col col-12 col-sm-6 col-lg-3">
+    <div class="card">
+    <img src="mod_imgs/mod7.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><a href="https://twitter.com/exwhyyy" style="text-decoration: none;">@exwhyyy</a></h5>
+      <p class="card-text">Full time degen.<br><span style="opacity: 0;">a</span></p>
+    </div>
+  </div>
+  </div>
+  <div class="col col-12 col-sm-6 col-lg-3">
+    <div class="card">
+    <img src="mod_imgs/mod8.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><a href="https://twitter.com/SpiritEther" style="text-decoration: none;">@Hachi</a></h5>
+      <p id="faq" class="card-text" style="font-size: 20px;width: 363px;height: 66px;">I think it`s second account of vii but only Hachi (EtherSpirit) can dm u with ur WL.</p>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <p class="job" style="color: rgb(255, 255, 255); font-family:  Marker Felt, fantasy;" >WL FAQ</p>
+</div>
+      <div class="accordion" >
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+             How do i get a WL/WhiteList?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse " aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <strong>There is no set criteria for obtaining a WL.</strong> We do not encourage “WL grinding” or spamming message counts on the server. Instead, we encourage members to use their unique skills to support the project.
+
+              This includes (but is not limited to) creating fan art, cosplays, threads, lore, memes, videos, graphics, etc. Viii will handpick and distribute WL as he sees fit.
+              
+              We will also host events where winners can obtain a WL. Events will be infrequent and be announced through the Ether discord or the founders’ twitter accounts. The structure of events and their rules will be detailed in their respective announcements. Keep a lookout for the aforementioned platforms!
+              <!-- <div class="alert alert-primary d-flex align-items-center" role="alert">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+                  <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                </svg>
+                <div>
+                  An example alert with an icon
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              How will I know if I`ve received a WL?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+             Whitelists are distributed through direct messages from the <a href="https://twitter.com/SpiritEther" target="_blank">@SpiritEther</a> account. <strong>MAKE SURE</strong> to follow <a href="https://twitter.com/SpiritEther" target="_blank">@SpiritEther</a> on twitter. If you are not following the account we can’t message you, meaning your WL will be voided.
+
+              
+              
+              <br>An official Ether member will <strong>NEVER</strong> send you a link.
+              Ether will <strong>NEVER</strong> have a stealth mint.<br>
+              <div style="margin-top: 15px;" class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Note:</strong>
+              
+              Beware of scams, and ALWAYS verify the authenticity of accounts.
+              If you’ve received a DM from <a href="https://twitter.com/SpiritEther" target="_blank">@SpiritEther</a>, ensure the account is followed by both <a href="https://twitter.com/visionofviii" target="_blank">@visionofviii</a> and <a href="https://twitter.com/CValley_" target="_blank">@CValley_</a>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              Is there anything I can do to guarantee meself a WL?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              No, there is no set guideline to guaranteeing yourself a WL. Due to the influx of hard working members who are constantly curating content to show their support, it is not possible to reward every single person.
+
+<div class="alert alert-primary d-flex align-items-center" role="alert" style="margin-top: 20px;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+  </svg>
+  <div>
+    Making content to show your support DOES NOT guarantee a WL.
+
+  </div>
+</div>
+              <!-- <figure>
+                <blockquote class="blockquote">
+                  <p>A well-known quote, contained in a blockquote element.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Someone famous in <cite title="Source Title">Source Title</cite>
+                </figcaption>
+              </figure> -->
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+             Why is there no WL role in the server?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+            <div class="accordion-body">
+              A WL role would mean assigning thousands of roles to potential minters, therefore being an inefficient use of the team’s time.
+
+              The Ether website will have a whitelist checker to verify if you are whitelisted in the system and how many you have.
+              
+            
+              <div style="margin-top: 15px;" class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Note:</strong>
+              
+                the Ether website has not launched yet!
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+     
+      <!-- <div class="container-fluid">
+        <p class="job">TOP PAYMENT</p>
+      </div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Vacancies</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Software Developer</td>
+            <td>106.230$</td>
+            <td>23</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>QA</td>
+            <td>100.000$</td>
+            <td>32</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Web Developer</td>
+            <td>85.000$</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Web Designer</td>
+            <td>70.000$</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Computer Analyst</td>
+            <td>55.000$</td>
+            <td>65</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>System Administrator</td>
+            <td>50.000$</td>
+            <td>54</td>
+          </tr>
+        
+        </tbody>
+      </table> -->
+      <div class="container-fluid" style="margin-top: 50px;">
+        <p class="job" id="op">MY OPINION ABOUT ETHER</p>
+      </div>
+      <div class="card mb-4" style="max-width: 100%; margin-top: 20px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="op1.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-text" style="font-size: 19px;"><span style="color: rgb(142, 111, 255); font-size: larger;">@CValley</span>
+                and 
+               
+               <span style="color: rgb(142, 111, 255); font-size: larger;">@visionofviii</span>
+                Build the Most Hyped NFT Project.
+                Masterfull Job, creating mystery hype, Amazing art
+               Ether is an upcoming project from artist 
+               @viii, his name has been involved with companies like epic games , rftk faze etc.
+               I am convinced that long term projects which have a unique art with quality will lead NFT world..
+               The experience of @visionofviii is extraordinary. His previous work as you can see is just beyond the imagination… Viii sold a 1/1 piece on SuperRare for <span style="color: rgb(142, 111, 255); font-size: larger;">8.42069 ETH</span> . I am completely surrendered from two of his Digital arts, Solitude and Ghost of the person I used to be.
+                
+              <br> @CValley an experienced nft trader. Be Transparent, driving back value to community, He cares about innovation. Cool things with smart contracts on the way. CV on ngmi podcast described ETHER'S VISION be the Fortnite of web3 which. Not necessary a game.
+              <br> <span style="color: rgb(142, 111, 255); font-size: larger;">An astonishing pfp collection..</span>
+               
+              <br>  -> 10k supply - 8k public / 1750 allowlist / 250 treasury 
+               
+              <br> -> Public mint price will be ~1E 
+               
+              <br>  -> wl price : 50% of public mint with an option for a free mint w/ time lock
+                 is a collection with both male and female genders. I feel so bullish ant enthusiastic from the small percentage of rarities.. From now anticipate for the Reveal..
+                 <br>-> Humans – 50%
+                 <br>-> Mecha – 30%
+                 <br>-> Imps/Vampires – 19%
+                 <br>-> Corrupt 0,95%
+                 <br>-> 1/1s – 0.05%
+              </p>
+              <br>
+              <figcaption class="blockquote-footer">
+               <a href="https://twitter.com/Kucerenko1Ila" style="text-decoration: none;"> @Kucerenko1Ila  </a>in <cite title="Source Title">ETHEREXP.com</cite>
+              </figcaption>
+             
+            </div>
+          </div>
+        </div>
+      </div>  
+      <div class="card mb-4" style="max-width: 100%; margin-top: 20px;">
+        <div class="row g-0">
+          
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-text">I am part of their Discord community and its so fascinating how they run it. Founders curate a tightly knitted community using roles for early supporters.  At the moment there isn’t Wl role and this is the magical way how ether project is built.
+                Founders monitor and will handpick Truly supporters not Grinders. If you are a Genuine one member you will be notified from 
+                <span style="color: rgb(142, 111, 255); font-size: larger;">@spiritether</span>
+                
+                For me is just a fun to communicate with Truly Ether lovers on discord and twitter and learn more and more about this Next Blue Chip.
+                Another important key element is the Connection. I appreciate that Founders communicate with people inside the server. Also Mods are really kind, have fun, talk and give all answers to our questions. 
+                Based on my interaction and experience, founders are goated, careful and down to earth persons and ether is their legacy and dream that is more than dope pfps and hype. Obviously there will be  innovative utilities. <span style="color: rgb(142, 111, 255); font-size: larger;">Thank you!</span>
+               <br> <span style="color: rgb(221, 131, 29); font-size: larger;"> My overall impression:</span>
+               
+               <br> ▶️ A Great Community.
+
+               <br>▶️ Absolute banger Art Work
+
+               <br>▶️ Ready to offer us mechanisms for  smart contracts which we have never seen before.
+
+               <br>▶️ Experienced Team.
+
+               <br>▶️ Fortnite of Web3.
+
+               <br>▶️ Hand pick each one member
+              </p>
+              <br>
+              <figcaption class="blockquote-footer">
+                <a href="https://twitter.com/Kucerenko1Ila" style="text-decoration: none;"> @Kucerenko1Ila  </a>in <cite title="Source Title">ETHEREXP.com</cite>
+               </figcaption>
+           
+           
+             
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="op2.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+         
+        </div>
+        
+      </div>
+    
+    
+    </div>
+
+
+
+      
+          
+          <div class="text-center p-4" style="background-color: rgb(6, 6, 78); margin-top: 50px;">
+           
+            <a style="color: aliceblue;"> © 2023 Copyright: binivini.com</a>
+          </div>
+        
+          
+       
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+</body>
+</html>
